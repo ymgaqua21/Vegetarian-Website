@@ -90,18 +90,20 @@
     padding: 0 7vw;
 }
 
-.main{
+.main_slide{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap-reverse;
 }
 
 .main_image_page{
     height: auto;
-    width: 800px;
-    margin-left: auto;
-    
+    margin-left: 100px;
+    width: 120%;
+    border-radius: 10px;   
 }
+
 .main_slide div:nth-child(2){
     flex: 1;
     display: flex;
@@ -112,11 +114,11 @@
 .main_slide div:nth-child(1){
     padding-top: 20px;
     flex: 1;
-    font-size: 30px;
+    font-size: 30px
 }
 
 .main_slide div:nth-child(1) p{
-    font-size: 13px;
+    font-size: 16px;
     padding: 20px 0;
 }
 
@@ -155,6 +157,64 @@
 
 .red_btn:hover i {
     color: rgb(253, 77, 8);
+}
+
+.food-items{
+    margin: 70px 0;
+    padding: 20px 0;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex: wrap;
+}
+
+.item{
+    width: 250px;
+    padding: 30px;
+    text-align: center;
+}
+
+.item div{
+    height: 160px;
+}
+
+.item img{
+    width: 160px;
+    margin-bottom: 15px;
+}
+
+.item p{
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+.white_btn{
+    cursor: pointer;
+    margin-top: 20px 0;
+    width: 160px;
+    font-weight: bold;
+    color: rgb(253, 77, 8);
+    line-height: 50px;
+    border: 1px solid rgb(253, 77, 8);
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 15px rgb(250, 120, 69);
+    transition: all 0.2s;
+}
+
+.white_btn:hover{
+    color: white;
+    background-color: rgb(253, 77, 8);
+    box-shadow: 0 10px 15px rgb(250, 120, 69);
+}
+
+.item .red_btn, .item .white_btn{
+    width: 120px;
+    line-height: 35px;
+
 }
 
 @media only screen and (max-width: 768px) {
