@@ -191,7 +191,7 @@
 
 }
 
-.white_btn{
+.white_btnBeverages, .white_btnBreakfest{
     cursor: pointer;
     margin-top: 20px 0;
     width: 160px;
@@ -205,13 +205,13 @@
     transition: all 0.2s;
 }
 
-.white_btn:hover{
+.white_btnBreakfest:hover, .white_btnBeverages:hover{
     color: white;
     background-color: rgb(253, 77, 8);
 box-shadow: 0 10px 15px rgb(250, 120, 69);
 }
 
-.item .red_btn, .item .white_btn{
+.item .red_btn, .item .white_btnBreakfest, .item .white_btnBeverages{
     width: 120px;
     line-height: 35px;
 }
@@ -487,6 +487,41 @@ box-shadow: 0 10px 15px rgb(250, 120, 69);
     border-radius: 0 10px 10px 0;
 }
 
+.footer{
+    padding: 60px;
+    border-top: 2px solid rgb(252, 184, 107);
+    background-color: rgb(252, 222, 195);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-1 .logo img{
+    width: 200px;
+}
+
+.footer-1 p{
+    cursor: pointer;
+    font-size: 14px;
+    padding: 2px;
+    color: rgb(255, 137, 2);
+}
+
+.footer-2{
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer-2 h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer-2 img{
+    width: 50px;
+    margin-bottom: 15px;
+}
+
 @media only screen and (max-width: 768px) {
     .header .nav, .header .account {
         display: none;
@@ -616,6 +651,14 @@ box-shadow: 0 10px 15px rgb(250, 120, 69);
         width: 120px;
         font-size: 12px;
     }
+
+    .footer-1 div{
+        margin: 0;
+    }
+
+    .footer div{
+        margin-bottom: 40px;
+    }
     
 }
 
@@ -686,5 +729,18 @@ box-shadow: 0 10px 15px rgb(250, 120, 69);
         flex: 1;
         text-align: center;
     }
+
+    .footer div:last-child{
+        margin-bottom: 0;
+    }
+
+    .footer{
+        padding-bottom: 25px;
+    }
+
+    .footer-2 h2{
+        font-size: 20px;
+    }
+
 }
 
