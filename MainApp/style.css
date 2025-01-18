@@ -276,7 +276,7 @@ box-shadow: 0 10px 15px rgb(250, 120, 69);
 
 }
 
-.main_slide3 {
+.main_slide3, .beverages-main{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -301,7 +301,7 @@ box-shadow: 0 10px 15px rgb(250, 120, 69);
     text-align: center;
 }
 
-.main_slide3 .fav-food{
+.main_slide3 .fav-food, .beverages-main .beverages{
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
@@ -337,7 +337,7 @@ box-shadow: 0 10px 15px rgb(250, 120, 69);
     font-size: 15px;
 }
 
-.main_slide3 .dsgn{
+.main_slide3 .dsgn, .beverages-main .dsgn{
     background-color: rgb(255, 214, 176);
     height: 50%;
     width: 100%;
@@ -521,6 +521,35 @@ box-shadow: 0 10px 15px rgb(250, 120, 69);
     width: 50px;
     margin-bottom: 15px;
 }
+
+.beverages-main .beverages .item{
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(119, 119, 119, 0.438);
+    width: 240px;
+    padding: 15px;
+    padding-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.beverages .price{
+    font-weight: bold;
+    color: red;   
+    font-size: 20px;
+}
+
+.beverages-main .beverages .item div{
+    height: 160px;
+    margin-bottom: 15px;
+}
+
+.beverages-main .beverages .item img{
+    width: 200px;
+    margin-bottom: 15px;
+}
+
 
 @media only screen and (max-width: 768px) {
     .header .nav, .header .account {
