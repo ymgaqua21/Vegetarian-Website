@@ -33,7 +33,7 @@ class Header extends HTMLElement {
                             <a href="/index.html">
                                 <li>Home</li>
                             </a>
-                            <a href="/MainApp/aboutUs.html">
+                            <a href="/aboutUs.html">
                                 <li>About</li>
                             </a>
                             <a href="/index.html#anchor-image">
@@ -54,7 +54,7 @@ class Header extends HTMLElement {
                         <a href="/index.html">
                             <li>Home</li>
                         </a>
-                        <a href="/MainApp/aboutUs.html">
+                        <a href="/aboutUs.html">
                             <li>About</li>
                         </a>
                         <a href="/index.html#anchor-image">
