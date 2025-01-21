@@ -855,6 +855,15 @@ box-shadow: 0 10px 15px rgb(250, 120, 69);
         width: 80%;
         margin-bottom: 20px;
     }
+    
+    .main_slide3 .fav-food .item img{
+        width: 100%;
+        height: 50%;
+    }
+
+    .main_slide3 .fav-food .item2 img{
+        width: 100%;
+    }
 
     .main_slide4 {
         margin-top: 150px;
@@ -977,6 +986,68 @@ box-shadow: 0 10px 15px rgb(250, 120, 69);
 
     .footer-2 h2{
         font-size: 20px;
+    }
+
+    .beverages-main{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .dinner-main{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .breakfast-main{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .beverages-main .beverages .item2{
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .beverages-main .beverages .item img{
+        width: 200%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .dinner-main .dinner .item{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .dinner-main .dinner .item img{
+        width: 150%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .breakfast-main .breakfast .item, .breakfast-main .breakfast .item2{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .breakfast-main .breakfast .item2 img{
+        width: 120%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .breakfast-main .breakfast .item img{
+        width: 125%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
     }
 
 }
