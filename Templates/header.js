@@ -1,6 +1,7 @@
 class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
+        <script src="App.js"></script>
         <header>
             <div class="header">
                 <div class="headerbar">
@@ -11,7 +12,7 @@ class Header extends HTMLElement {
                                     <i class="fa-solid fa-house-chimney"></i>
                                 </li>
                             </a>
-                            <a href="#">
+                            <a href="/MainApp/index.html">
                                 <li>
                                     <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
                                 </li>
@@ -29,17 +30,14 @@ class Header extends HTMLElement {
                     </div>
                     <div class="nav">
                         <ul>
-                            <a href="">
+                            <a href="/MainApp/index.html">
                                 <li>Home</li>
                             </a>
-                            <a href="">
+                            <a href="/MainApp/aboutUs.html">
                                 <li>About</li>
                             </a>
-                            <a href="">
+                            <a href="/Main/App/index.html#anchor-image">
                                 <li>Food Menu</li>
-                            </a>
-                            <a href="">
-                                <li>Book Table</li>
                             </a>
                         </ul>
                     </div>
@@ -53,23 +51,20 @@ class Header extends HTMLElement {
                 </div>
                 <div class="nav">
                     <ul>
-                        <a href="#">
+                        <a href="/MainApp/index.html">
                             <li>Home</li>
                         </a>
-                        <a href="#">
+                        <a href="/MainApp/aboutUs.html">
                             <li>About</li>
                         </a>
-                        <a href="#">
+                        <a href="/MainApp/index.html#anchor-image">
                             <li>Food Menu</li>
-                        </a>
-                        <a href="#">
-                            <li>Book Table</li>
                         </a>
                     </ul>
                 </div>
                 <div class="account">
                     <ul>
-                        <a href="#">
+                        <a href="/MainApp/index.html">
                             <li>
                                 <i class="fa-solid fa-house-chimney"></i>
                             </li>

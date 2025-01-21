@@ -15,6 +15,7 @@ class Footer extends HTMLElement{
                 <h2>Powered by <em>Adan M</em></h2>
             </div>
         </div>
+        
         `;
     }
 }
