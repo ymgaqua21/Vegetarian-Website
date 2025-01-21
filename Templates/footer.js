@@ -4,7 +4,7 @@ class Footer extends HTMLElement{
         <div class="footer">
             <div class="footer-1">
                 <div class="logo">
-                    <img src="/Images/honeybee.png" alt="">
+                    <img src="Images/honeybee.png" alt="">
                 </div>
                 <address>
                     <p>Email: am925953@aldine-isd.org</p>

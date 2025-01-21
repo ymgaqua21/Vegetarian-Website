@@ -12,7 +12,7 @@ class Header extends HTMLElement {
                                     <i class="fa-solid fa-house-chimney"></i>
                                 </li>
                             </a>
-                            <a href="/index.html">
+                            <a href="index.html">
                                 <li>
                                     <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
                                 </li>
@@ -30,20 +30,20 @@ class Header extends HTMLElement {
                     </div>
                     <div class="nav">
                         <ul>
-                            <a href="/index.html">
+                            <a href="index.html">
                                 <li>Home</li>
                             </a>
-                            <a href="/aboutUs.html">
+                            <a href="aboutUs.html">
                                 <li>About</li>
                             </a>
-                            <a href="/index.html#anchor-image">
+                            <a href="index.html#anchor-image">
                                 <li>Food Menu</li>
                             </a>
                         </ul>
                     </div>
                 </div>
                 <div class="logo">
-                    <img src="/Images/honeybee.png" alt="Vegetarian Food">
+                    <img src="Images/honeybee.png" alt="Vegetarian Food">
                 </div>
                 <div class="bar">
                     <i class="fa-solid fa-bars"></i>
@@ -51,20 +51,20 @@ class Header extends HTMLElement {
                 </div>
                 <div class="nav">
                     <ul>
-                        <a href="/index.html">
+                        <a href="index.html">
                             <li>Home</li>
                         </a>
-                        <a href="/aboutUs.html">
+                        <a href="aboutUs.html">
                             <li>About</li>
                         </a>
-                        <a href="/index.html#anchor-image">
+                        <a href="index.html#anchor-image">
                             <li>Food Menu</li>
                         </a>
                     </ul>
                 </div>
                 <div class="account">
                     <ul>
-                        <a href="/index.html">
+                        <a href="index.html">
                             <li>
                                 <i class="fa-solid fa-house-chimney"></i>
                             </li>
