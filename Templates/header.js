@@ -12,7 +12,7 @@ class Header extends HTMLElement {
                                     <i class="fa-solid fa-house-chimney"></i>
                                 </li>
                             </a>
-                            <a href="/MainApp/index.html">
+                            <a href="/index.html">
                                 <li>
                                     <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
                                 </li>
@@ -30,13 +30,13 @@ class Header extends HTMLElement {
                     </div>
                     <div class="nav">
                         <ul>
-                            <a href="/MainApp/index.html">
+                            <a href="/index.html">
                                 <li>Home</li>
                             </a>
                             <a href="/MainApp/aboutUs.html">
                                 <li>About</li>
                             </a>
-                            <a href="/Main/App/index.html#anchor-image">
+                            <a href="/index.html#anchor-image">
                                 <li>Food Menu</li>
                             </a>
                         </ul>
@@ -51,20 +51,20 @@ class Header extends HTMLElement {
                 </div>
                 <div class="nav">
                     <ul>
-                        <a href="/MainApp/index.html">
+                        <a href="/index.html">
                             <li>Home</li>
                         </a>
                         <a href="/MainApp/aboutUs.html">
                             <li>About</li>
                         </a>
-                        <a href="/MainApp/index.html#anchor-image">
+                        <a href="/index.html#anchor-image">
                             <li>Food Menu</li>
                         </a>
                     </ul>
                 </div>
                 <div class="account">
                     <ul>
-                        <a href="/MainApp/index.html">
+                        <a href="/index.html">
                             <li>
                                 <i class="fa-solid fa-house-chimney"></i>
                             </li>
