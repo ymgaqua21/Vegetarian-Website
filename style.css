@@ -713,6 +713,11 @@ box-shadow: 0 10px 15px rgb(250, 120, 69);
     margin-bottom: 20px;
 }
 
+.about-us h2{
+    color: red;
+    padding-top: 50px;
+}
+
 .about-us p {
     font-size: 18px;
     line-height: 1.6;
