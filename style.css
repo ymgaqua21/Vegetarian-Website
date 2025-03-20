@@ -141,7 +141,7 @@
 .main_slide div:nth-child(1){
     padding-top: 20px;
     flex: 1;
-    font-size: 30px
+    font-size: 29px
 }
 
 .main_slide div:nth-child(1) p{
@@ -317,6 +317,10 @@ box-shadow: 0 10px 15px rgb(250, 120, 69);
 
 }
 
+.q_ans h5{
+    color: red;
+}
+
 .main_slide3, .beverages-main, .dinner-main, .breakfast-main{
     display: flex;
     flex-direction: column;
@@ -325,6 +329,8 @@ box-shadow: 0 10px 15px rgb(250, 120, 69);
     position: relative;
     z-index: 1;
 }
+
+
 
 .main_slide3 .fav-head{
     text-align: center;
