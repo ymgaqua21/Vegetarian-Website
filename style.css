@@ -92,6 +92,10 @@
     padding: 0 7vw;
 }
 
+.calendar{
+    display: block;
+}
+
 .Take_In_Out_Container {
     display: flex;
     justify-content: center; /* Center buttons horizontally */
